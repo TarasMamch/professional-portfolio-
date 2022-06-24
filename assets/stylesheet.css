@@ -81,6 +81,7 @@ header {
 .about-me-img {
     width: 400px;
     height: auto;
+    border: 1px solid black;
 }
 
 .content-container p {
@@ -103,13 +104,20 @@ header {
 .large-work-img {
     width: 100%;
     height: 350px;
-    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
 }
 
 .smaller-work-imgs {
     width: 480px;
     height: 150px;
-    padding: 10px;
+    margin: 9px;
+    border: 1px solid black;
+}
+
+.large-work-img:hover,
+.smaller-work-imgs:hover {
+    box-shadow: 1px 10px 10px black;
 }
 
 @media screen and (max-width: 1220px) {
